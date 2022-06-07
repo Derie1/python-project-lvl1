@@ -1,0 +1,369 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-unknown-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jun  8 01:47:32 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+PULSE_SERVER = unix:/run/flatpak/pulse/native
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-8098463b-0b0c-49be-b91c-d4f3ae16bf9d.sock
+# environment
+SBX_CHROME_API_RQ = 1
+# environment
+LC_NAME = ru_RU.UTF-8
+# environment
+LC_NUMERIC = ru_RU.UTF-8
+# environment
+VSCODE_CWD = /home/mdavy
+# environment
+WINDOWPATH = 2
+# environment
+LC_ADDRESS = ru_RU.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/mdavy/Documents/Python/Hexlet/python-project-lvl1
+# environment
+ZYPAK_ZYGOTE_STRATEGY_SPAWN = 1
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+GI_TYPELIB_PATH = /app/lib/girepository-1.0
+# environment
+XDG_DATA_DIRS = /app/share:/usr/share:/usr/share/runtime/share:/run/host/user-share:/run/host/share
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/mdavy/.var/app/com.visualstudio.code/config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/flatpak/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# environment
+ALSA_CONFIG_DIR = /usr/share/alsa
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ZYPAK_SPAWN_LATEST_ON_REEXEC = 0
+# makefile
+CURDIR := /home/mdavy/Documents/Python/Hexlet/python-project-lvl1
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+ZYPAK_LIB = /app/bin/../lib
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/flatpak/ssh-auth
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /app/etc/xdg:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+ALSA_CONFIG_PATH = /usr/share/alsa/alsa-flatpak.conf
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+FLATPAK_SANDBOX_DIR = /home/mdavy/.var/app/com.visualstudio.code/sandbox
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 23
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+AT_SPI_BUS_ADDRESS = unix:path=/run/flatpak/at-spi-bus
+# environment
+XDG_DATA_HOME = /home/mdavy/.var/app/com.visualstudio.code/data
+# environment
+SANDBOX_LD_PRELOAD = /app/bin/../lib/libzypak-preload-host.so:/app/bin/../lib/libzypak-preload-host-spawn-strategy.so
+# environment
+SESSION_MANAGER = local/mdavyPC:@/tmp/.ICE-unix/2344,unix/mdavyPC:/tmp/.ICE-unix/2344
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/flatpak/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
+# environment
+__EGL_EXTERNAL_PLATFORM_CONFIG_DIRS = /etc/egl/egl_external_platform.d:/usr/lib/x86_64-linux-gnu/GL/egl/egl_external_platform.d:/usr/share/egl/egl_external_platform.d
+# default
+MAKE_HOST := x86_64-unknown-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+LD_LIBRARY_PATH = /app/lib
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SANDBOX_LD_LIBRARY_PATH = /app/lib
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /app/bin:/app/bin:/app/bin:/usr/bin:/home/mdavy/.var/app/com.visualstudio.code/data/node_modules/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = ru:en_US:en
+# environment
+LC_MONETARY = ru_RU.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+DBUS_SYSTEM_BUS_ADDRESS = unix:path=/run/dbus/system_bus_socket
+# environment
+LC_TIME = ru_RU.UTF-8
+# environment
+XDG_CONFIG_HOME = /home/mdavy/.var/app/com.visualstudio.code/config
+# environment
+INVOCATION_ID = 49b62bd2d362489eb527c82572ef413e
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = mdavy
+# environment
+LC_TELEPHONE = ru_RU.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+GST_PLUGIN_SYSTEM_PATH = /app/lib/gstreamer-1.0:/usr/lib/extensions/gstreamer-1.0:/usr/lib/x86_64-linux-gnu/gstreamer-1.0
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = mdavy
+# environment
+container = flatpak
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/flatpak/exports/share/applications/com.visualstudio.code.desktop
+# makefile
+.DEFAULT_GOAL := install
+# environment
+SYSTEMD_EXEC_PID = 2366
+# environment
+NPM_CONFIG_GLOBALCONFIG = /app/etc/npmrc
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+USER = mdavy
+# environment
+DISPLAY = :99.0
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 1763
+# environment
+LC_MEASUREMENT = ru_RU.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5270
+# environment
+_ = /usr/bin/make
+# environment
+LC_PAPER = ru_RU.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+PULSE_CLIENTCONFIG = /run/flatpak/pulse/config
+# environment
+JOURNAL_STREAM = 8:31631
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/mdavy
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-8d2d9553-1.67.2-main.sock
+# environment
+PAPERSIZE = a4
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+XDG_CACHE_HOME = /home/mdavy/.var/app/com.visualstudio.code/cache
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+FLATPAK_ID = com.visualstudio.code
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+ZYPAK_BIN = /app/bin
+# environment
+GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = ru_RU.UTF-8
+# variable set hash-table stats:
+# Load=131/1024=13%, Rehash=0, Collisions=14/159=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66312, inode 9051022): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+brain-games:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 5):
+	poetry run brain-games
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 01:42:23.183218109
+#  File has been updated.
+#  Successfully updated.
+
+package-install:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	python3 -m pip install --user ./dist/*.whl
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+publish:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	poetry publish --dry-run
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	poetry build
+
+install:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 2):
+	poetry install
+	
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/19=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 21 / storage = 186 B / avg = 8 B
+# current buf: size = 8162 B / used = 186 B / count = 21 / avg = 8 B
+
+# strcache performance: lookups = 30 / hit rate = 30%
+# hash-table stats:
+# Load=21/8192=0%, Rehash=0, Collisions=0/30=0%
+# Finished Make data base on Wed Jun  8 01:47:32 2022
+
+ 
