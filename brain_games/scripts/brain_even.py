@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-from tkinter import N
 import prompt
 from random import randint
 
