@@ -1,5 +1,4 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/mdavy/Documents/Python/Hexlet/python-project-lvl1'
-poetry install
-make: Leaving directory '/home/mdavy/Documents/Python/Hexlet/python-project-lvl1'
- 
+make.exe --dry-run --always-make --keep-going --print-directory
+"make.exe" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+
