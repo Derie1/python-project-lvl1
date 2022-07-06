@@ -26,7 +26,7 @@ def is_corret_answer(players_answer, correct_answer):
 
 
 def main():
-    print('Welcome to the Brain Calc Game!')
+    print('Welcome to the Brain Games!')
     user_name = welcome_user()
     print(f'Hello, {user_name}!')
     print('What is the result of the expression?')

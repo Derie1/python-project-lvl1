@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 import prompt
 from random import randint
-import math
 
 START_NUMBER = 1
-END_NUMBER = 100
+END_NUMBER = 25
 TRIES = 3
 
 
@@ -13,8 +12,19 @@ def welcome_user():
     return player
 
 
-def get_gcd(num1, num2):
-    return math.gcd(num1, num2)
+def create_progression():
+    number = randint(1, 50)
+    interval = randint(1, 5)
+    stop = number + interval * 10
+    progression = list(range(number, stop, interval))
+    return progression
+
+
+def list_to_string(some_list):
+    result_string = ''
+    for _ in some_list:
+        result_string += str(f"{_} ")
+    return result_string
 
 
 def is_corret_answer(players_answer, correct_answer):
@@ -25,12 +35,14 @@ def main():
     print('Welcome to the Brain Games!')
     user_name = welcome_user()
     print(f'Hello, {user_name}!')
-    print('Find the greatest common divisor of given numbers.')
+    print('What number is missing in the progression?')
     for _ in range(TRIES):
-        number1 = randint(START_NUMBER, END_NUMBER)
-        number2 = randint(START_NUMBER, END_NUMBER)
-        print(f'Question: {number1} {number2}')
-        correct_answer = str(get_gcd(number1, number2))
+        progression = create_progression()
+        random_index = randint(0, len(progression) - 1)
+        correct_answer = str(progression[random_index])
+        progression[random_index] = '..'
+        question = list_to_string(progression)
+        print(f"Question: {question}")
         players_answer = prompt.string('Your answer: ')
 
         if is_corret_answer(players_answer, correct_answer):

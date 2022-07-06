@@ -17,7 +17,7 @@ def is_even(x):
 
 
 def main():
-    print('Welcome to the Brain Even Game!')
+    print('Welcome to the Brain Games!')
     user_name = welcome_user()
     print(f'Hello, {user_name}!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
