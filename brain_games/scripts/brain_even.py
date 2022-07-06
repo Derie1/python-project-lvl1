@@ -25,7 +25,8 @@ def main():
         number = randint(START_NUMBER, END_NUMBER)
         print(f'Question: {number}')
         players_answer = prompt.string('Your answer: ')
-        if (is_even(number) and players_answer == 'yes') or (not is_even(number) and players_answer == 'no'):
+        if (is_even(number) and players_answer == 'yes') or (
+                not is_even(number) and players_answer == 'no'):
             print('Correct!')
         elif is_even(number) and players_answer == 'no':
             print("'no' is wrong answer ;(. Correct answer was 'yes'.")
