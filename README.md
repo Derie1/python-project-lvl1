@@ -7,7 +7,7 @@
 ## Brain-even game
 
 Game, where you need to answer for random number from 1 to 99 is it even or not.
-See example of gameplay at: [(https://asciinema.org/)](https://asciinema.org/connect/679c64d-2be6-45de-b391-e038f01bed9b)
+See example of gameplay at: [![asciicast](https://asciinema.org/a/49eGqRmOiV0Gxrjmz8YWj351I.svg)](https://asciinema.org/a/49eGqRmOiV0Gxrjmz8YWj351I)
 
 ## Brain-calc game
 
@@ -23,3 +23,5 @@ See example of gameplay at: [![asciicast](https://asciinema.org/a/A28eRqTQLPqgwC
 
 Game, where you need to find missing number in the progression.
 See example of gameplay at: [![asciicast](https://asciinema.org/a/MBtwqfw3OmvM32OcuPSwQfrUW.svg)](https://asciinema.org/a/MBtwqfw3OmvM32OcuPSwQfrUW)
+
+1
