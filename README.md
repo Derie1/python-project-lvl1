@@ -24,4 +24,7 @@ See example of gameplay at: [![asciicast](https://asciinema.org/a/A28eRqTQLPqgwC
 Game, where you need to find missing number in the progression.
 See example of gameplay at: [![asciicast](https://asciinema.org/a/MBtwqfw3OmvM32OcuPSwQfrUW.svg)](https://asciinema.org/a/MBtwqfw3OmvM32OcuPSwQfrUW)
 
-1
+## Brain-prime game
+
+Game, where you need to answer is random number prime or not.
+See example of gameplay at: [![asciicast](https://asciinema.org/a/JHpSahcya1JEP6pnrclWQatan.svg)](https://asciinema.org/a/JHpSahcya1JEP6pnrclWQatan)
