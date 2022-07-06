@@ -8,3 +8,8 @@
 
 Game, where you need to answer for random number from 1 to 99 is it even or not.
 See example of playing at: [( https://asciinema.org)](https://asciinema.org/connect/8679c64d-2be6-45de-b391-e038f01bed9b)
+
+## Brain-calc game
+
+Game, where you need to answer for simple math calculations.
+See example of playing at: [(https://asciinema.org)](https://asciinema.org/a/J89pqZUXhMnkMh40fWkSG8NSP)
