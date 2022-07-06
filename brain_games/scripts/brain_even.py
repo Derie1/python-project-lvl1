@@ -28,12 +28,14 @@ def main():
         if (is_even(number) and players_answer == 'yes') or (
                 not is_even(number) and players_answer == 'no'):
             print('Correct!')
-        elif is_even(number) and players_answer == 'no':
-            print("'no' is wrong answer ;(. Correct answer was 'yes'.")
+        elif is_even(number) and players_answer != 'yes':
+            print(
+                f"'{players_answer}' is wrong answer ;(. Correct answer was 'yes'.")
             print(f"Let's try again, {user_name}!")
             return
-        elif not is_even(number) and players_answer == 'yes':
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+        elif not is_even(number) and players_answer != 'no':
+            print(
+                f"'{players_answer}' is wrong answer ;(. Correct answer was 'no'.")
             print(f"Let's try again, {user_name}!")
             return
     print(f'Congratulations, {user_name}!')
