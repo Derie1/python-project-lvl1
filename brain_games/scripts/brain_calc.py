@@ -5,6 +5,7 @@ from random import randint
 START_NUMBER = 1
 END_NUMBER = 25
 TRIES = 3
+WRONG_MSG = "is wrong answer ;(. Correct answer was"
 
 
 def welcome_user():
@@ -42,7 +43,7 @@ def main():
             print('Correct!')
         else:
             print(
-                f"'{players_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'")
+                f"'{players_answer}' {WRONG_MSG} '{correct_answer}'")
             print(f"Let's try again, {user_name}!")
             return
     print(f'Congratulations, {user_name}!')

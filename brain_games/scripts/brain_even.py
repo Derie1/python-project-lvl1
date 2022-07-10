@@ -5,6 +5,7 @@ from random import randint
 START_NUMBER = 1
 END_NUMBER = 99
 TRIES = 3
+WRONG_MSG = "is wrong answer ;(. Correct answer was"
 
 
 def welcome_user():
@@ -29,12 +30,12 @@ def main():
             print('Correct!')
         elif is_even(number) and players_answer != 'yes':
             print(
-                f"'{players_answer}' is wrong answer ;(. Correct answer was 'yes'.")
+                f"'{players_answer}' {WRONG_MSG} 'yes'.")
             print(f"Let's try again, {user_name}!")
             return
         elif not is_even(number) and players_answer != 'no':
             print(
-                f"'{players_answer}' is wrong answer ;(. Correct answer was 'no'.")
+                f"'{players_answer}' {WRONG_MSG} 'no'.")
             print(f"Let's try again, {user_name}!")
             return
     print(f'Congratulations, {user_name}!')
