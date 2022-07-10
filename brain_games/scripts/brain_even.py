@@ -8,7 +8,7 @@ TRIES = 3
 
 
 def welcome_user():
-    player = prompt.string('May i have your name? ')
+    player = prompt.string('May I have your name? ')
     return player
 
 
@@ -17,7 +17,6 @@ def is_even(x):
 
 
 def main():
-    print('Welcome to the Brain Games!')
     user_name = welcome_user()
     print(f'Hello, {user_name}!')
     print('Answer "yes" if the number is even, otherwise answer "no".')

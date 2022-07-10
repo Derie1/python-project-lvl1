@@ -9,7 +9,7 @@ TRIES = 3
 
 
 def welcome_user():
-    player = prompt.string('May i have your name? ')
+    player = prompt.string('May I have your name? ')
     return player
 
 
@@ -22,7 +22,6 @@ def is_corret_answer(players_answer, correct_answer):
 
 
 def main():
-    print('Welcome to the Brain Games!')
     user_name = welcome_user()
     print(f'Hello, {user_name}!')
     print('Find the greatest common divisor of given numbers.')
